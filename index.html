@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xobin | Home</title>
+    <link rel="stylesheet" href="index.css">
+
+    <!-- fontawesome icon -->
+    <script src="https://kit.fontawesome.com/afd9ba88ef.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <nav class="sticky-top navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="#" class="logo">
+                <img src="https://xobin.com/wp-content/uploads/2021/04/XobinLogoLatest.png" alt="">
+            </a>
+            <button class="navbar-toggler nt" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars close"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav nav-lnks">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Casestudies</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Ready-made Tests
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Skill Based Tests</a></li>
+                            <li><a class="dropdown-item" href="#">Tests For Job Role</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="#">Pre-Employment Skills Assesment Software</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Campus Recruitment Software</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Coding Skill Assesment Software</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Coding Interview Tool</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Gray AI Recruitment Software</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Psychometric Assesment Software</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Pre Recording Interview Software</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Xobin Assesments API Integration</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Customers <i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bold" href="#">Get Started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bold" href="#">SIGN IN <i class="fa-solid fa-right-to-bracket"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="demo">
+        <h1>Let’s Schedule Your Personalized Demo</h1>
+        <p>Our experts can help you find the right solution.</p>
+        <p>Fill out the form below.</p>
+    </section>
+
+    <section class="form flex-wrap">
+        <form class="col-md-7 col-sm-12" action="#">
+            <div class="element">
+                <p>I'm looking at a solution for:</p>
+                <input type="radio" name="work" id="me">
+                <label for="me">Myself</label><br>
+                <input type="radio" name="work" id="org">
+                <label for="org">My Organization</label>
+            </div>
+            <div class="element">
+                <div class="line">
+                    <label class="d-block" for="name">Name</label>
+                    <input type="text" class="width" name="name" id="name" required>
+                </div>
+                <div class="line">
+                    <label class="d-block" for="mail">Work Email</label>
+                    <input type="email" class="width" name="mail" id="mail" placeholder="name@compamy.com" required>
+                </div>
+            </div>
+            <div class="element">
+                <div class="line">
+                    <label class="d-block" for="company">Company Name</label>
+                    <input type="text" class="width" name="company" id="company" required>
+                </div>
+                <div class="line">
+                    <label class="d-block" for="no">Number</label>
+                    <input type="tel" class="width" name="number" id="no">
+                </div>
+            </div>
+            <div class="element">
+                <label class="d-block" for="am">Which team do you belong to ?</label>
+                <select name="am" class="width" id="am" required>
+                    <option selected disabled value>Please Select</option>
+                    <option value="manag">Management</option>
+                    <option value="hr">HR and Recruitment Team</option>
+                    <option value="learn">Learning and Development Team</option>
+                    <option value="tech">Technology Team</option>
+                    <option value="intern">Student/Intern/Job Seeker</option>
+                </select>
+            </div>
+            <div class="element">
+                <label for="inter">I'd specifically like to look at*</label>
+                <p class="p">Choose with solution you are interested in </p>
+                <input type="checkbox" name="aptitude" id="at">
+                <label for="at">Aptitude Test</label><br>
+                <input type="checkbox" name="coding" id="ct">
+                <label for="ct">Coding Test</label><br>
+                <input type="checkbox" name="pscho" id="pt">
+                <label for="pt">Psychometric Tests</label><br>
+                <input type="checkbox" name="rbt" id="role">
+                <label for="role">Role based Tests (HR, Finance, Marketing)</label><br>
+                <input type="checkbox" name="va" id="vat">
+                <label for="vat">Video Assessments & Interviews</label><br>
+                <input type="checkbox" name="all" id="all">
+                <label for="all">All the above</label><br>
+            </div>
+            <div class="element">
+                <p class="tc">The contact information is necessary to communicate with you regarding our products and services. You may unsubscribe from these communications at any time. We are GDPR Compliant. You can review our <a href="#">Terms of service</a> and
+                    our <a href="#">Privacy Policy</a>.</p>
+                <img src="https://s38924.pcdn.co/wp-content/uploads/2020/08/Invisable-reCAPTCHA.png" alt="">
+            </div>
+            <div class="element">
+                <button class="sub" type="submit">Check Available Slots For Live Demo</button>
+            </div>
+        </form>
+        <div class="content col-md-5 col-sm-12">
+            <i><p>Xobin helped in maximizing our “Quality-of-Hire”. Top-notch quality of questions and timely Customer Support greatly cutback our operational burden.</p></i>
+            <div class="author">
+                <img src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://xobin.com/wp-content/uploads/2020/03/circle-cropped-ConvertImage.png" alt="">
+                <h4>Karthik A</h4>
+                <h4>BeyondSquare Solutions
+                </h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="rate">
+        <h1>Rated as a Leader by Customers & Experts</h1>
+        <img src="https://xobin.com/wp-content/uploads/2021/01/Screenshot-from-2021-01-28-17.32.36.png" alt="">
+        <div class="review">
+            <h2>Customer Reviews</h2>
+            <div class="cards flex-wrap">
+                <div class="card">
+                    <p>It’s been close to 3 years since we started using Xobin. We’ve assessed over 2000 candidates and hired many freshers. Xobin is an integral part of our team.</p>
+                    <div class="ni">
+                        <div class="img"><img class="rounded-circle" src="https://xobin.com/wp-content/uploads/2021/01/ezgif.com-gif-maker-150x150.png" alt=""></div>
+                        <div class="title">
+                            <h3>Arun Kumar Ganesan</h3>
+                            <p>Associate Director, Ideas2IT</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>Xobin platform worked well for campus hiring. Great support by the team. They are always ready to understand the issue and provide a comprehensive solution.</p>
+                    <div class="ni">
+                        <div class="img"><img class="rounded-circle" src="https://xobin.com/wp-content/uploads/2021/01/ezgif.com-gif-maker-150x150.png" alt=""></div>
+                        <div class="title">
+                            <h3>Akhil Sikri</h3>
+                            <p>Co-founder, Zolostays</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="com">
+                <h4>Company</h4>
+                <ul>
+                    <li>
+                        <a href="#">Meet the Team</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog & Insights</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="#">GDPR Readiness</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="com">
+                <h4>Products</h4>
+                <ul>
+                    <li>
+                        <a href="#">Pre-Employment Testing</a>
+                    </li>
+                    <li>
+                        <a href="#">Video Interviews Software</a>
+                    </li>
+                    <li>
+                        <a href="#">Campus Recruitment Software</a>
+                    </li>
+                    <li>
+                        <a href="#">Coding Tests Platform</a>
+                    </li>
+                    <li>
+                        <a href="#">Coding Interview Software</a>
+                    </li>
+                    <li>
+                        <a href="#">Psychometric Testing Software</a>
+                    </li>
+                    <li>
+                        <a href="#">Grey-AI Engine</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="com">
+                <h4>Compare</h4>
+                <ul>
+                    <li>
+                        <a href="#">Xobin vs HackerRank</a>
+                    </li>
+                    <li>
+                        <a href="#">Xobin vs Mettl</a>
+                    </li>
+                    <li>
+                        <a href="#">Xobin vs Testdome</a>
+                    </li>
+                    <li>
+                        <a href="#">Xobin vs Vervoe</a>
+                    </li>
+                    <li>
+                        <a href="#">Xobin vs Mocha</a>
+                    </li>
+                    <li>
+                        <a href="#">Xobin vs CoderPad</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="com">
+                <h4>Resources</h4>
+                <ul>
+                    <li>
+                        <a href="#">What is an Assessment Software ?</a>
+                    </li>
+                    <li>
+                        <a href="#">Assessments for Enterprises</a>
+                    </li>
+                    <li>
+                        <a href="#">Assessments for Startups</a>
+                    </li>
+                    <li>
+                        <a href="#">Cheat Proof Online Assessments</a>
+                    </li>
+                    <li>
+                        <a href="#">Psychometric Tests E-book</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="owner">
+            <div class="s">
+                <p>© 2022 Xobin Inc</p>
+            </div>
+            <div class="ss">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
